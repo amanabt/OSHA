@@ -1,1 +1,13 @@
 String weatherLocationName "City: [%s]" <location> { channel="airquality:aqi:home:locationName" }
+
+Number:Dimensionless aqiTemperature "Temperature [%d]"  { channel="airquality:aqi:home:temperature" }
+
+Number:Dimensionless aqiHumidity "Humidity [%d]" {               channel="airquality:aqi:home:humidity"}
+
+Number aqiLevel "AQI Level [%d]" { channel="airquality:aqi:home:aqiLevel" }
+
+Number aqiPM10 "PM 10 [%d]" { channel="airquality:aqi:home:pm10" }
+
+Number aqiO3 "O3 [%d]" { channel="airquality:aqi:home:o3" }
+
+Number aqiCO "CO [%d]" { channel="airquality:aqi:home:co" }

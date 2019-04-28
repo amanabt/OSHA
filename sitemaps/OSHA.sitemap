@@ -20,6 +20,38 @@ sitemap OSHA label="OSHA GUI"
     {
         Text item=weatherLocationName label="Location Name [%s]"
              icon="location"
+
+        Text item=aqiTemperature
+             label="Temperature [ %d ]"
+             icon="temperature"
+             visibility=[ aqiTemperature!="UNDEF" ]
+
+        Text item=aqiHumidity
+             label="Humidity [ %d ]"
+             icon="humidity"
+             visibility=[ aqiHumidity!="UNDEF" ]
+                
+        Text item=aqiLevel
+             label="AQI Level [ %d ]"
+             icon="flow"
+             visibility=[ aqiLevel!="UNDEF" ]
+
+        Text item=aqiPM10
+             label="PM10 [ %d ]"
+             icon="line"
+             visibility=[ aqiPM10!="UNDEF" ]
+
+        Text item=aqiO3
+             label="O3 [ %d ]"
+             icon="line"
+             visibility=[ aqiO3!="UNDEF" ]
+
+        Text item=aqiCO
+             label="CO [ %d ]"
+             icon="line"
+             visibility=[ aqiCO!="UNDEF" ]
+
     }
+
 }
 
