@@ -15,5 +15,11 @@ sitemap OSHA label="OSHA GUI"
              label="Latency [%sms]"
              icon="qualityofservice" 
 	}
+
+    Frame label="Weather Info"
+    {
+        Text item=weatherLocationName label="Location Name [%s]"
+             icon="location"
+    }
 }
 

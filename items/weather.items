@@ -1,0 +1,1 @@
+String weatherLocationName "City: [%s]" <location> { channel="airquality:aqi:home:locationName" }

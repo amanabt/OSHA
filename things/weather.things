@@ -1,0 +1,1 @@
+Thing airquality:aqi:home "Weather and Ait Quality" @ "Kanpur" [ apikey="9ac102a7cc08707801942738d007554ad8638685", location="26.5119295, 80.2327222", refresh=5 ]
