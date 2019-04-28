@@ -1,0 +1,3 @@
+Switch smartPhoneStatus "Status" {channel="network:pingdevice:smartPhone:online"}
+DateTime smartPhoneLastSeen "Last Seen" {channel="network:pingdevice:smartPhone:lastseen"}
+Number smartPhoneLatency "Latency" {channel="network:pingdevice:smartPhone:latency"}
